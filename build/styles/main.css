@@ -1,0 +1,95 @@
+.marginHeader {
+  margin-bottom: 0.5em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background-color: #F4E7E1;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+@media (min-width:768px) and (max-width:1023px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media (max-width:767px) {
+  .container {
+    max-width: 70%;
+  }
+}
+header {
+  padding: 1.5em;
+}
+header .foto-perfil {
+  display: block;
+  margin: 0 auto 1.5em;
+  border-radius: 50%;
+  max-width: 9.38em;
+  max-height: 15.63em;
+  width: 100%;
+  height: 100%;
+}
+.bio {
+  color: #1B4D3E;
+  text-align: center;
+}
+.bio-nome {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+.bio-profissao {
+  font-size: 1.38em;
+  margin-bottom: 0.5em;
+}
+.bio-portifolio {
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+}
+.redes-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 5em;
+  width: 100%;
+  margin: 0 auto;
+}
+.redes-links li {
+  list-style: none;
+}
+.redes-links li img {
+  transition: all ease 0.3s;
+}
+.redes-links li img:hover {
+  transform: scale(1.2);
+}
+.links-projetos {
+  margin-top: 1em;
+}
+.links-projetos .item-projetos {
+  list-style: none;
+}
+.links-projetos .item-projetos a {
+  text-decoration: none;
+  color: #F1E3D3;
+  background-color: #FF9A9A;
+  display: block;
+  padding: 1em 1.25em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 1.25em;
+  font-weight: bolder;
+  transition: all ease 0.5s;
+}
+.links-projetos .item-projetos a:hover {
+  color: #FF9A9A;
+  background-color: transparent;
+  border: 0.2em solid #FF9A9A;
+}
